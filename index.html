@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul id="ul">
+            <li id="li">INICIO</li>
+            <li id="li">ACERCA DE MI</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <br>
+        <h1 id="h1">BIENVENIDOS A MI DOM</h1>
+        <br>
+        <main>
+            <section id="sectionForms">
+                <h1>Productos</h2>
+                    <form>
+                        <input id="nombre" type="text" placeholder=" Ingtresar Productos">
+                        <input id="stock" type="number" placeholder=" Ingtresar stock">
+                        <input id="precio" type="number" placeholder=" Ingtresar Pvp">
+
+                        <button id="btn"> AGREGAR</button>
+                    </form>
+            </section>
+            <section id="sectionTable">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Stock</th>
+                            <th>Pre_Compra</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyProducts">
+                    </tbody>
+                </table>
+            </section>
+        </main>
+
+    </div>
+</body>
+<script src="./product/product.js"></script>
+<script src="./product/product.conytrollers.js"></script>
+<script src="main.js">
+
+</script>
+
+</html>
